@@ -13,6 +13,8 @@ import { CirculosComponent } from './componente/circulos/circulos.component';
 import { ProyectosComponent } from './componente/proyectos/proyectos.component';
 import { FooterComponent } from './componente/footer/footer.component';
 import { IngresopagComponent } from './componente/ingresopag/ingresopag.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import { IngresopagComponent } from './componente/ingresopag/ingresopag.componen
   ],
   imports: [
     BrowserModule,
+    NgCircleProgressModule . forRoot ( { }),
     AppRoutingModule
   ],
   providers: [],
